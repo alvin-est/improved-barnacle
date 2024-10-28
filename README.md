@@ -6,7 +6,7 @@ This application will guide you through a series of prompts in order to generate
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
-- [Contributing](#contributing)
+- [Contributors](#Contributors)
 - [Tests](#tests)
 - [Questions](#questions)
 ## Installation
