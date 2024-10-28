@@ -1,7 +1,7 @@
 # SVG Logo Maker
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ## Description
-This application will guide the user through a series of prompts in order to generate a logo.svg file.
+This application will guide you through a series of prompts in order to generate a logo.svg file.
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
@@ -10,9 +10,9 @@ This application will guide the user through a series of prompts in order to gen
 - [Tests](#tests)
 - [Questions](#questions)
 ## Installation
-By installing NodeJS development environment in their localhost or server and then cloning the repo.
+Install NodeJS development environment on your localhost workstation or server and then git clone this repo.
 ## Usage
-In the console, write the command 'npm i' to install relevant packages and then 'node index' to start the app.  
+In the console, write the command 'npm i' to install relevant packages and then 'node index' to run the app.  
 ## License
       This project is licensed under the MIT license.
 ## Contributors
