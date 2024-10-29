@@ -13,6 +13,7 @@ This application will guide you through a series of prompts in order to generate
 Install NodeJS development environment on your localhost workstation or server and then git clone this repo.
 ## Usage
 In the console, write the command 'npm i' to install relevant packages and then 'node index' to run the app.  
+Also see walkthrough video: https://youtu.be/Ot7KdPfxzCw
 ## License
       This project is licensed under the MIT license.
 ## Contributors
