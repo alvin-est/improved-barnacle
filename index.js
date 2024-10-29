@@ -11,9 +11,6 @@ This application should:
 /* Using ES6 modules */
 // Import dependencies
 import inquirer from 'inquirer';
-import jest from 'jest';
-import fs from 'fs';
-import path from 'path';
 
 // Import functions
 import generateLogo from './utils/generateLogo.js';
@@ -43,10 +40,3 @@ async function init() {
 }
 
 init();
-
-
-
-
-
-
-
