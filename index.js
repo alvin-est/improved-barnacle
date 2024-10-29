@@ -8,20 +8,16 @@ This application should:
 
 */
 
+/* Using ES6 modules */
 // Import dependencies
-const inquirer = require('inquirer');
-const jest = require('jest');
-const fs = require('fs');
-const path = require('path');
+import inquirer from 'inquirer';
+import jest from 'jest';
+import fs from 'fs';
+import path from 'path';
 
-// Import classes
-const Square = require('./lib/Square');
-const Circle = require('./lib/Circle');
-const Triangle = require('./lib/Triangle');
-
-// Declare variables
-let color = shape = text = '';
-
+// Import functions
+import generateLogo from './utils/generateLogo.js';
+import prompt from './utils/userPrompt.js';
 
 // Initialise the application
 async function init() {
@@ -46,31 +42,8 @@ async function init() {
 init();
 
 
-// Gather user input
-async function prompt() {
-    // Prompt the user to select a colour and shape - as well as provide text for the logo
-    const response = await inquirer.prompt([
-        {
-            type: 'list',
-            name: 'color',
-            message: 'Select a color:',
-            choices: ['red', 'green', 'blue', 'yellow', 'purple', 'orange']
-        },
-        {
-            type: 'list',
-            name: 'shape',
-            message: 'Select a shape:',
-            choices: ['triangle', 'circle', 'square']
-        },
-        {
-            type: 'input',
-            name: 'text',
-            message: 'Provide text for your logo:'
-        }
-    ]);
 
-    console.log(response);
-    return response;
-}
+
+
 
 
