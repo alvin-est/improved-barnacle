@@ -18,6 +18,6 @@ In the console, write the command 'npm i' to install relevant packages and then 
 ## Contributors
 Alvin
 ## Tests
-Unit test
+Jest unit tests for Shapes' colours
 ## Questions
 If you have any questions, please contact me at [contact@alvin-the.dev](mailto:contact@alvin-the.dev). You can also find me on GitHub at [@alvin-est](https://github.com/@alvin-est).  
