@@ -17,7 +17,7 @@ import path from 'path';
 
 // Import functions
 import generateLogo from './utils/generateLogo.js';
-import prompt from './utils/userPrompt.js';
+import userPrompt from './utils/userPrompt.js';
 
 // Initialise the application
 async function init() {
@@ -33,10 +33,13 @@ async function init() {
 
     const { start } = response;
 
-    if(!start) 
+    if(!start) {
         return console.log("Goodbye!");
-    else
-        prompt();
+    }
+    else {
+        const userInput = await userPrompt();
+        generateLogo(userInput);
+    }
 }
 
 init();

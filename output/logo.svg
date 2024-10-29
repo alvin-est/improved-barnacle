@@ -1,0 +1,6 @@
+
+        <svg width="600" height="600" xmlns="http://www.w3.org/2000/svg">
+            <rect width="600" height="600" style="fill:yellow;stroke-width:3;stroke:black;" />
+            <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="black" font-size="300%">Hello world!</text>
+        </svg>
+        
